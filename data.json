@@ -1,0 +1,236 @@
+{
+  "lastUpdated": "2026-03-11",
+  "models": [
+    {
+      "id": "model3",
+      "name": "Model 3",
+      "tagline": "The most accessible Tesla",
+      "image": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MT338,$PR01,$W40B,$IPB1&view=FRONT34&model=m3&size=1920&bkba_opt=2&crop=0,0,0,0&",
+      "trims": [
+        {
+          "name": "Standard Range RWD",
+          "msrp": 36990,
+          "range": 272,
+          "zeroTo60": 5.8,
+          "topSpeed": 125,
+          "lease": { "monthly": 299, "downPayment": 2999, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 606 },
+          "fsd": 8000
+        },
+        {
+          "name": "Long Range AWD",
+          "msrp": 47490,
+          "range": 363,
+          "zeroTo60": 4.4,
+          "topSpeed": 125,
+          "lease": { "monthly": 399, "downPayment": 4094, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 778 },
+          "fsd": 8000
+        },
+        {
+          "name": "Performance AWD",
+          "msrp": 54990,
+          "range": 303,
+          "zeroTo60": 2.9,
+          "topSpeed": 163,
+          "lease": { "monthly": 499, "downPayment": 4494, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 901 },
+          "fsd": 8000
+        }
+      ],
+      "priceHistory": [
+        { "date": "2024-01", "base": 38990 },
+        { "date": "2024-04", "base": 38990 },
+        { "date": "2024-07", "base": 38990 },
+        { "date": "2024-10", "base": 34990 },
+        { "date": "2025-01", "base": 34990 },
+        { "date": "2025-04", "base": 34990 },
+        { "date": "2025-07", "base": 36990 },
+        { "date": "2025-10", "base": 36990 },
+        { "date": "2026-01", "base": 36990 },
+        { "date": "2026-03", "base": 36990 }
+      ]
+    },
+    {
+      "id": "modely",
+      "name": "Model Y",
+      "tagline": "The versatile SUV for everyone",
+      "image": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTY18,$PR01,$W41B,$IBE00&view=FRONT34&model=my&size=1920&bkba_opt=2&crop=0,0,0,0&",
+      "trims": [
+        {
+          "name": "Long Range RWD",
+          "msrp": 44990,
+          "range": 337,
+          "zeroTo60": 5.9,
+          "topSpeed": 135,
+          "lease": { "monthly": 399, "downPayment": 3499, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 737 },
+          "fsd": 8000
+        },
+        {
+          "name": "Long Range AWD",
+          "msrp": 47990,
+          "range": 320,
+          "zeroTo60": 4.0,
+          "topSpeed": 135,
+          "lease": { "monthly": 449, "downPayment": 4144, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 786 },
+          "fsd": 8000
+        },
+        {
+          "name": "Performance AWD",
+          "msrp": 54990,
+          "range": 303,
+          "zeroTo60": 3.5,
+          "topSpeed": 155,
+          "lease": { "monthly": 549, "downPayment": 4494, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 901 },
+          "fsd": 8000
+        }
+      ],
+      "priceHistory": [
+        { "date": "2024-01", "base": 43990 },
+        { "date": "2024-04", "base": 44990 },
+        { "date": "2024-07", "base": 44990 },
+        { "date": "2024-10", "base": 44990 },
+        { "date": "2025-01", "base": 44990 },
+        { "date": "2025-03", "base": 44990 },
+        { "date": "2025-06", "base": 44990 },
+        { "date": "2025-10", "base": 44990 },
+        { "date": "2026-01", "base": 44990 },
+        { "date": "2026-03", "base": 44990 }
+      ]
+    },
+    {
+      "id": "models",
+      "name": "Model S",
+      "tagline": "The flagship sedan",
+      "image": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTS12,$PR01,$WS10,$IBE00&view=FRONT34&model=ms&size=1920&bkba_opt=2&crop=0,0,0,0&",
+      "trims": [
+        {
+          "name": "All-Wheel Drive",
+          "msrp": 94990,
+          "range": 402,
+          "zeroTo60": 3.1,
+          "topSpeed": 149,
+          "lease": { "monthly": 1099, "downPayment": 7499, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 1556 },
+          "fsd": 0,
+          "note": "FSD included"
+        },
+        {
+          "name": "Plaid",
+          "msrp": 109990,
+          "range": 390,
+          "zeroTo60": 1.99,
+          "topSpeed": 200,
+          "lease": { "monthly": 1299, "downPayment": 7999, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 1802 },
+          "fsd": 0,
+          "note": "FSD + Free Unlimited Supercharging included"
+        }
+      ],
+      "priceHistory": [
+        { "date": "2024-01", "base": 74990 },
+        { "date": "2024-04", "base": 74990 },
+        { "date": "2024-07", "base": 74990 },
+        { "date": "2024-10", "base": 74990 },
+        { "date": "2025-01", "base": 74990 },
+        { "date": "2025-06", "base": 79990 },
+        { "date": "2025-10", "base": 84990 },
+        { "date": "2026-01", "base": 94990 },
+        { "date": "2026-03", "base": 94990 }
+      ]
+    },
+    {
+      "id": "modelx",
+      "name": "Model X",
+      "tagline": "The ultimate SUV",
+      "image": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTX12,$PR01,$WX00B,$IBE00&view=FRONT34&model=mx&size=1920&bkba_opt=2&crop=0,0,0,0&",
+      "trims": [
+        {
+          "name": "All-Wheel Drive",
+          "msrp": 99990,
+          "range": 335,
+          "zeroTo60": 3.8,
+          "topSpeed": 149,
+          "lease": { "monthly": 1199, "downPayment": 7499, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 1638 },
+          "fsd": 0,
+          "note": "FSD included"
+        },
+        {
+          "name": "Plaid",
+          "msrp": 114990,
+          "range": 311,
+          "zeroTo60": 2.5,
+          "topSpeed": 163,
+          "lease": { "monthly": 1399, "downPayment": 7999, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 1884 },
+          "fsd": 0,
+          "note": "FSD + Free Unlimited Supercharging included"
+        }
+      ],
+      "priceHistory": [
+        { "date": "2024-01", "base": 79990 },
+        { "date": "2024-04", "base": 79990 },
+        { "date": "2024-07", "base": 79990 },
+        { "date": "2024-10", "base": 79990 },
+        { "date": "2025-01", "base": 79990 },
+        { "date": "2025-06", "base": 84990 },
+        { "date": "2025-10", "base": 89990 },
+        { "date": "2026-01", "base": 99990 },
+        { "date": "2026-03", "base": 99990 }
+      ]
+    },
+    {
+      "id": "cybertruck",
+      "name": "Cybertruck",
+      "tagline": "Built for any planet",
+      "image": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTCT1,$PR01,$WCTB,$ICTB1&view=FRONT34&model=ct&size=1920&bkba_opt=2&crop=0,0,0,0&",
+      "trims": [
+        {
+          "name": "Long Range RWD",
+          "msrp": 79990,
+          "range": 325,
+          "zeroTo60": 6.5,
+          "topSpeed": 112,
+          "lease": null,
+          "finance": { "apr": 5.49, "months": 72, "monthly": 1311 },
+          "fsd": 8000
+        },
+        {
+          "name": "All-Wheel Drive",
+          "msrp": 99990,
+          "range": 318,
+          "zeroTo60": 4.1,
+          "topSpeed": 112,
+          "lease": null,
+          "finance": { "apr": 5.49, "months": 72, "monthly": 1638 },
+          "fsd": 8000
+        },
+        {
+          "name": "Cyberbeast AWD",
+          "msrp": 114990,
+          "range": 301,
+          "zeroTo60": 2.6,
+          "topSpeed": 130,
+          "lease": null,
+          "finance": { "apr": 5.49, "months": 72, "monthly": 1884 },
+          "fsd": 8000
+        }
+      ],
+      "priceHistory": [
+        { "date": "2024-01", "base": 60990 },
+        { "date": "2024-04", "base": 60990 },
+        { "date": "2024-07", "base": 60990 },
+        { "date": "2024-10", "base": 60990 },
+        { "date": "2025-01", "base": 69990 },
+        { "date": "2025-06", "base": 74990 },
+        { "date": "2025-10", "base": 79990 },
+        { "date": "2026-01", "base": 79990 },
+        { "date": "2026-03", "base": 79990 }
+      ]
+    }
+  ]
+}
