@@ -3,39 +3,39 @@
   "deals": [
     {
       "type": "hot",
-      "title": "🔥 0% APR for 72 months on Model Y RWD & Long Range AWD",
-      "detail": "No down payment required. Expanded from RWD-only to both base trims. Ends March 31, 2026.",
-      "savings": "Save ~$10,000+ in interest vs standard 5.49% APR"
+      "title": "🔥 Model Y: 0% APR for 72 months",
+      "detail": "All Model Y trims except Performance. $3,300 down, 72 months. Ends March 31, 2026.",
+      "savings": "Save $8,000-12,000 in interest vs 6.29% APR"
     },
     {
       "type": "hot",
-      "title": "🔥 0% APR for 72 months on Model 3 RWD",
-      "detail": "Zero-interest financing on the most affordable Tesla. Ends March 31, 2026.",
-      "savings": "Save ~$6,500+ in interest vs standard 5.49% APR"
+      "title": "🔥 Model 3 Premium & Performance: 0.99% APR",
+      "detail": "Near-zero interest on Model 3 Premium and Performance trims. Limited time.",
+      "savings": "Save $6,000+ in interest vs standard rates"
     },
     {
       "type": "new",
       "title": "🆕 3 Months Free FSD Trial on all new orders",
-      "detail": "Referral program now gives 3 months of Full Self-Driving (Supervised) instead of $500 off. Worth ~$297.",
+      "detail": "Referral program gives 3 months of Full Self-Driving (Supervised). Worth ~$297 at $99/mo subscription.",
       "savings": "$297 value"
     },
     {
       "type": "new",
       "title": "🔄 FSD Transfer Program — Deadline March 31",
-      "detail": "Existing owners with FSD can transfer their license to a new Tesla. Must take delivery by March 31, 2026.",
+      "detail": "Existing owners with purchased FSD can transfer their license to a new Tesla. Must take delivery by 3/31/2026.",
       "savings": "Save $8,000 (FSD purchase price)"
     },
     {
       "type": "info",
       "title": "💰 Federal EV Tax Credit up to $7,500",
-      "detail": "Model 3 RWD and Model Y RWD/LR qualify for the full $7,500 credit. Income limits: $300K (MFJ) for purchase credit; lease transfers credit to dealer (effectively discounts lease). MSRP cap: $55K (sedans), $80K (SUVs).",
+      "detail": "Model 3 and Model Y qualify. Income limits: $300K (MFJ). MSRP cap: $55K sedans, $80K SUVs. Up to $4,200 savings available after delivery.",
       "savings": "Up to $7,500"
     },
     {
       "type": "info",
       "title": "🏠 Washington State — No sales tax on EVs under $45K",
-      "detail": "WA exempts EVs priced under $45,000 from state sales tax (10.25% in Seattle). Model 3 RWD ($36,990) qualifies. Model Y RWD ($39,990) qualifies.",
-      "savings": "Save ~$3,800-$4,100 in sales tax"
+      "detail": "WA exempts EVs priced under $45,000 from 10.25% sales tax (Seattle). Model 3 RWD ($36,990), Model Y RWD ($39,990), Model Y AWD ($41,990), Model Y RWD Premium ($44,990) all qualify.",
+      "savings": "Save $3,800-$4,600 in sales tax"
     }
   ],
   "models": [
@@ -51,25 +51,36 @@
           "range": 321,
           "zeroTo60": 5.8,
           "topSpeed": 125,
-          "peakCharging": "225 kW",
           "lease": { "monthly": 299, "downPayment": 2999, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.0, "months": 72, "monthly": 514, "note": "0% APR — ends 3/31" },
+          "finance": { "apr": 6.29, "months": 84, "monthly": 519 },
           "fsd": 8000,
           "taxCredit": 7500,
           "waSalesTaxExempt": true,
-          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt"]
+          "highlights": ["$7,500 tax credit", "WA sales tax exempt"]
         },
         {
-          "name": "Long Range AWD",
-          "msrp": 48880,
+          "name": "Rear-Wheel Drive Premium",
+          "msrp": 42490,
+          "range": 341,
+          "zeroTo60": 5.8,
+          "topSpeed": 125,
+          "lease": { "monthly": 369, "downPayment": 3499, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 0.99, "months": 72, "monthly": 582, "note": "0.99% APR — limited time" },
+          "fsd": 8000,
+          "taxCredit": 7500,
+          "highlights": ["0.99% APR", "$7,500 tax credit", "Premium interior"]
+        },
+        {
+          "name": "Dual Motor AWD Premium",
+          "msrp": 47490,
           "range": 346,
           "zeroTo60": 4.2,
           "topSpeed": 125,
-          "peakCharging": "250 kW",
           "lease": { "monthly": 399, "downPayment": 4094, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 801 },
+          "finance": { "apr": 0.99, "months": 72, "monthly": 653, "note": "0.99% APR — limited time" },
           "fsd": 8000,
-          "taxCredit": 7500
+          "taxCredit": 7500,
+          "highlights": ["0.99% APR", "$7,500 tax credit"]
         },
         {
           "name": "Performance AWD",
@@ -77,12 +88,11 @@
           "range": 309,
           "zeroTo60": 2.9,
           "topSpeed": 163,
-          "peakCharging": "250 kW",
           "lease": { "monthly": 499, "downPayment": 4494, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 901 },
+          "finance": { "apr": 0.99, "months": 72, "monthly": 761, "note": "0.99% APR — limited time" },
           "fsd": 8000,
           "taxCredit": 7500,
-          "highlights": ["New 16\" QHD display", "Alcantara headliner"]
+          "highlights": ["0.99% APR", "16\" QHD display"]
         }
       ],
       "priceHistory": [
@@ -110,38 +120,61 @@
           "range": 321,
           "zeroTo60": 6.8,
           "topSpeed": 125,
-          "peakCharging": "225 kW",
           "lease": { "monthly": 399, "downPayment": 3499, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.0, "months": 72, "monthly": 555, "note": "0% APR — ends 3/31" },
+          "finance": { "apr": 0.0, "months": 72, "monthly": 529, "note": "0% APR — ends 3/31" },
           "fsd": 8000,
           "taxCredit": 7500,
           "waSalesTaxExempt": true,
-          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt", "Juniper refresh"]
+          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt"]
         },
         {
-          "name": "Long Range AWD",
-          "msrp": 50380,
+          "name": "All-Wheel Drive",
+          "msrp": 41990,
+          "range": 313,
+          "zeroTo60": 4.8,
+          "topSpeed": 135,
+          "lease": { "monthly": 429, "downPayment": 3699, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 0.0, "months": 72, "monthly": 557, "note": "0% APR — ends 3/31" },
+          "fsd": 8000,
+          "taxCredit": 7500,
+          "waSalesTaxExempt": true,
+          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt", "AWD traction"]
+        },
+        {
+          "name": "Rear-Wheel Drive Premium",
+          "msrp": 44990,
+          "range": 321,
+          "zeroTo60": 6.8,
+          "topSpeed": 125,
+          "lease": { "monthly": 459, "downPayment": 3999, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 0.0, "months": 72, "monthly": 617, "note": "0% APR — ends 3/31" },
+          "fsd": 8000,
+          "taxCredit": 7500,
+          "waSalesTaxExempt": true,
+          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt", "Premium interior"]
+        },
+        {
+          "name": "Dual Motor AWD Premium",
+          "msrp": 48990,
           "range": 327,
           "zeroTo60": 4.6,
           "topSpeed": 135,
-          "peakCharging": "250 kW",
-          "lease": { "monthly": 449, "downPayment": 4144, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.0, "months": 72, "monthly": 700, "note": "0% APR — ends 3/31" },
+          "lease": { "monthly": 499, "downPayment": 4299, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 0.0, "months": 72, "monthly": 674, "note": "0% APR — ends 3/31" },
           "fsd": 8000,
           "taxCredit": 7500,
-          "highlights": ["0% APR 72mo", "16\" center display", "7-seat option $2,500"]
+          "highlights": ["0% APR 72mo", "$7,500 tax credit", "16\" display", "7-seat option $2,500"]
         },
         {
           "name": "Performance AWD",
-          "msrp": 58880,
+          "msrp": 57490,
           "range": 306,
           "zeroTo60": 3.3,
           "topSpeed": 155,
-          "peakCharging": "250 kW",
-          "lease": { "monthly": 549, "downPayment": 4494, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 965 },
+          "lease": { "monthly": 599, "downPayment": 4999, "months": 36, "milesPerYear": 10000 },
+          "finance": { "apr": 5.49, "months": 72, "monthly": 899 },
           "fsd": 8000,
-          "highlights": ["Adaptive suspension", "16\" center display"]
+          "highlights": ["Adaptive suspension", "16\" display"]
         }
       ],
       "priceHistory": [
