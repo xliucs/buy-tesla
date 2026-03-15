@@ -305,6 +305,22 @@ body { font-family: var(--font); background: var(--bg); color: var(--text); -web
   .trim-cards { grid-template-columns: 1fr; }
 }
 
+/* Deals Banner */
+.deals-section { background: var(--bg3); padding: 32px 0; }
+.deals-grid { max-width: 980px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.deal-card { display: flex; align-items: flex-start; gap: 12px; padding: 16px; border-radius: var(--radius-sm); background: var(--card-bg); border: 1px solid var(--border); transition: transform var(--transition), box-shadow var(--transition); }
+.deal-card:hover { transform: translateY(-2px); box-shadow: var(--card-hover); }
+.deal-card.hot { border-left: 3px solid #ff3b30; }
+.deal-card.new { border-left: 3px solid #34c759; }
+.deal-card.info { border-left: 3px solid #007aff; }
+.deal-title { font-size: 0.9em; font-weight: 600; margin-bottom: 4px; }
+.deal-detail { font-size: 0.8em; color: var(--text2); line-height: 1.4; }
+.deal-savings { font-size: 0.78em; font-weight: 600; color: #34c759; margin-top: 6px; }
+.deals-header { max-width: 980px; margin: 0 auto; padding: 0 24px 16px; display: flex; align-items: center; justify-content: space-between; }
+.deals-header h2 { font-size: 1.4em; font-weight: 700; }
+.deals-header .deadline { font-size: 0.85em; color: #ff3b30; font-weight: 600; }
+.trim-highlight { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 0.72em; font-weight: 600; background: rgba(52,199,89,0.12); color: #34c759; margin-right: 4px; margin-top: 6px; }
+
 /* Animations */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(20px); }
@@ -323,13 +339,23 @@ body { font-family: var(--font); background: var(--bg); color: var(--text); -web
 
 <div class="nav-wrap">
   <nav class="nav" id="nav">
-    <div class="nav-item active" data-target="overview">Overview</div>
+    <div class="nav-item active" data-target="deals">Deals</div>
+    <div class="nav-item" data-target="overview">Overview</div>
     <div class="nav-item" data-target="compare">Compare</div>
     <div class="nav-item" data-target="history">Price History</div>
     <div class="nav-item" data-target="calculator">Calculator</div>
     <button class="theme-btn" onclick="toggleTheme()" title="Toggle theme">◐</button>
   </nav>
 </div>
+
+<!-- Deals Section -->
+<section class="deals-section" id="deals">
+  <div class="deals-header">
+    <h2>🔥 Current Deals</h2>
+    <span class="deadline">⏰ Many expire March 31</span>
+  </div>
+  <div class="deals-grid" id="deals-grid"></div>
+</section>
 
 <!-- Overview Section -->
 <section class="section" id="overview">
@@ -421,6 +447,7 @@ async function init() {
   const res = await fetch('data.json');
   data = await res.json();
   document.getElementById('last-updated').textContent = new Date(data.lastUpdated + 'T00:00:00').toLocaleDateString('en-US', {year:'numeric',month:'long',day:'numeric'});
+  renderDeals();
   renderModels();
   renderCompare();
   renderChart();
@@ -429,6 +456,20 @@ async function init() {
 }
 
 function fmt(n) { return '$' + n.toLocaleString(); }
+
+function renderDeals() {
+  if (!data.deals) return;
+  const grid = document.getElementById('deals-grid');
+  grid.innerHTML = data.deals.map(d => `
+    <div class="deal-card ${d.type}">
+      <div>
+        <div class="deal-title">${d.title}</div>
+        <div class="deal-detail">${d.detail}</div>
+        <div class="deal-savings">${d.savings}</div>
+      </div>
+    </div>
+  `).join('');
+}
 
 function renderModels() {
   const grid = document.getElementById('model-grid');
@@ -474,7 +515,9 @@ function renderCompare() {
       }
     } else if (compareMode === 'finance') {
       mainPayment = `${fmt(t.finance.monthly)}<span class="unit">/mo</span>`;
-      details = `${t.finance.apr}% APR · ${t.finance.months} months · $0 down`;
+      const aprLabel = t.finance.apr === 0 ? '<strong style="color:#34c759">0% APR</strong>' : t.finance.apr + '% APR';
+      const finNote = t.finance.note ? ' · ' + t.finance.note : '';
+      details = `${aprLabel} · ${t.finance.months} months · $0 down${finNote}`;
     } else if (compareMode === 'cash') {
       mainPayment = fmt(t.msrp);
       details = t.note || (t.fsd > 0 ? `+ ${fmt(t.fsd)} for FSD` : 'FSD included');
@@ -501,6 +544,7 @@ function renderCompare() {
         <div class="spec"><div class="spec-value">${t.zeroTo60}s</div><div class="spec-label">0–60 mph</div></div>
         <div class="spec"><div class="spec-value">${t.topSpeed}</div><div class="spec-label">Top Speed</div></div>
       </div>
+      ${t.highlights ? '<div style="margin-top:8px">' + t.highlights.map(h => '<span class="trim-highlight">' + h + '</span>').join('') + '</div>' : ''}
     </div>`;
   }).join('');
 }
@@ -673,7 +717,7 @@ document.getElementById('nav').addEventListener('click', e => {
 });
 
 // Scroll spy
-const sections = ['overview','compare','history','calculator'];
+const sections = ['deals','overview','compare','history','calculator'];
 window.addEventListener('scroll', () => {
   const scrollY = window.scrollY + 80;
   let active = sections[0];

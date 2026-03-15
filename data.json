@@ -1,5 +1,43 @@
 {
-  "lastUpdated": "2026-03-11",
+  "lastUpdated": "2026-03-14",
+  "deals": [
+    {
+      "type": "hot",
+      "title": "🔥 0% APR for 72 months on Model Y RWD & Long Range AWD",
+      "detail": "No down payment required. Expanded from RWD-only to both base trims. Ends March 31, 2026.",
+      "savings": "Save ~$10,000+ in interest vs standard 5.49% APR"
+    },
+    {
+      "type": "hot",
+      "title": "🔥 0% APR for 72 months on Model 3 RWD",
+      "detail": "Zero-interest financing on the most affordable Tesla. Ends March 31, 2026.",
+      "savings": "Save ~$6,500+ in interest vs standard 5.49% APR"
+    },
+    {
+      "type": "new",
+      "title": "🆕 3 Months Free FSD Trial on all new orders",
+      "detail": "Referral program now gives 3 months of Full Self-Driving (Supervised) instead of $500 off. Worth ~$297.",
+      "savings": "$297 value"
+    },
+    {
+      "type": "new",
+      "title": "🔄 FSD Transfer Program — Deadline March 31",
+      "detail": "Existing owners with FSD can transfer their license to a new Tesla. Must take delivery by March 31, 2026.",
+      "savings": "Save $8,000 (FSD purchase price)"
+    },
+    {
+      "type": "info",
+      "title": "💰 Federal EV Tax Credit up to $7,500",
+      "detail": "Model 3 RWD and Model Y RWD/LR qualify for the full $7,500 credit. Income limits: $300K (MFJ) for purchase credit; lease transfers credit to dealer (effectively discounts lease). MSRP cap: $55K (sedans), $80K (SUVs).",
+      "savings": "Up to $7,500"
+    },
+    {
+      "type": "info",
+      "title": "🏠 Washington State — No sales tax on EVs under $45K",
+      "detail": "WA exempts EVs priced under $45,000 from state sales tax (10.25% in Seattle). Model 3 RWD ($36,990) qualifies. Model Y RWD ($39,990) qualifies.",
+      "savings": "Save ~$3,800-$4,100 in sales tax"
+    }
+  ],
   "models": [
     {
       "id": "model3",
@@ -8,34 +46,43 @@
       "image": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MT338,$PR01,$W40B,$IPB1&view=FRONT34&model=m3&size=1920&bkba_opt=2&crop=0,0,0,0&",
       "trims": [
         {
-          "name": "Standard Range RWD",
+          "name": "Rear-Wheel Drive",
           "msrp": 36990,
-          "range": 272,
+          "range": 321,
           "zeroTo60": 5.8,
           "topSpeed": 125,
+          "peakCharging": "225 kW",
           "lease": { "monthly": 299, "downPayment": 2999, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 606 },
-          "fsd": 8000
+          "finance": { "apr": 0.0, "months": 72, "monthly": 514, "note": "0% APR — ends 3/31" },
+          "fsd": 8000,
+          "taxCredit": 7500,
+          "waSalesTaxExempt": true,
+          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt"]
         },
         {
           "name": "Long Range AWD",
-          "msrp": 47490,
-          "range": 363,
-          "zeroTo60": 4.4,
+          "msrp": 48880,
+          "range": 346,
+          "zeroTo60": 4.2,
           "topSpeed": 125,
+          "peakCharging": "250 kW",
           "lease": { "monthly": 399, "downPayment": 4094, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 778 },
-          "fsd": 8000
+          "finance": { "apr": 5.49, "months": 72, "monthly": 801 },
+          "fsd": 8000,
+          "taxCredit": 7500
         },
         {
           "name": "Performance AWD",
           "msrp": 54990,
-          "range": 303,
+          "range": 309,
           "zeroTo60": 2.9,
           "topSpeed": 163,
+          "peakCharging": "250 kW",
           "lease": { "monthly": 499, "downPayment": 4494, "months": 36, "milesPerYear": 10000 },
           "finance": { "apr": 5.49, "months": 72, "monthly": 901 },
-          "fsd": 8000
+          "fsd": 8000,
+          "taxCredit": 7500,
+          "highlights": ["New 16\" QHD display", "Alcantara headliner"]
         }
       ],
       "priceHistory": [
@@ -58,34 +105,43 @@
       "image": "https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$MTY18,$PR01,$W41B,$IBE00&view=FRONT34&model=my&size=1920&bkba_opt=2&crop=0,0,0,0&",
       "trims": [
         {
-          "name": "Long Range RWD",
-          "msrp": 44990,
-          "range": 337,
-          "zeroTo60": 5.9,
-          "topSpeed": 135,
+          "name": "Rear-Wheel Drive",
+          "msrp": 39990,
+          "range": 321,
+          "zeroTo60": 6.8,
+          "topSpeed": 125,
+          "peakCharging": "225 kW",
           "lease": { "monthly": 399, "downPayment": 3499, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 737 },
-          "fsd": 8000
+          "finance": { "apr": 0.0, "months": 72, "monthly": 555, "note": "0% APR — ends 3/31" },
+          "fsd": 8000,
+          "taxCredit": 7500,
+          "waSalesTaxExempt": true,
+          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt", "Juniper refresh"]
         },
         {
           "name": "Long Range AWD",
-          "msrp": 47990,
-          "range": 320,
-          "zeroTo60": 4.0,
+          "msrp": 50380,
+          "range": 327,
+          "zeroTo60": 4.6,
           "topSpeed": 135,
+          "peakCharging": "250 kW",
           "lease": { "monthly": 449, "downPayment": 4144, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 786 },
-          "fsd": 8000
+          "finance": { "apr": 0.0, "months": 72, "monthly": 700, "note": "0% APR — ends 3/31" },
+          "fsd": 8000,
+          "taxCredit": 7500,
+          "highlights": ["0% APR 72mo", "16\" center display", "7-seat option $2,500"]
         },
         {
           "name": "Performance AWD",
-          "msrp": 54990,
-          "range": 303,
-          "zeroTo60": 3.5,
+          "msrp": 58880,
+          "range": 306,
+          "zeroTo60": 3.3,
           "topSpeed": 155,
+          "peakCharging": "250 kW",
           "lease": { "monthly": 549, "downPayment": 4494, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 901 },
-          "fsd": 8000
+          "finance": { "apr": 5.49, "months": 72, "monthly": 965 },
+          "fsd": 8000,
+          "highlights": ["Adaptive suspension", "16\" center display"]
         }
       ],
       "priceHistory": [
@@ -98,7 +154,7 @@
         { "date": "2025-06", "base": 44990 },
         { "date": "2025-10", "base": 44990 },
         { "date": "2026-01", "base": 44990 },
-        { "date": "2026-03", "base": 44990 }
+        { "date": "2026-03", "base": 39990 }
       ]
     },
     {
