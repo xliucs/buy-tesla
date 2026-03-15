@@ -3,37 +3,37 @@
   "deals": [
     {
       "type": "hot",
-      "title": "🔥 Model Y: 0% APR for 72 months",
+      "title": "\ud83d\udd25 Model Y: 0% APR for 72 months",
       "detail": "All Model Y trims except Performance. $3,300 down, 72 months. Ends March 31, 2026.",
       "savings": "Save $8,000-12,000 in interest vs 6.29% APR"
     },
     {
       "type": "hot",
-      "title": "🔥 Model 3 Premium & Performance: 0.99% APR",
+      "title": "\ud83d\udd25 Model 3 Premium & Performance: 0.99% APR",
       "detail": "Near-zero interest on Model 3 Premium and Performance trims. Limited time.",
       "savings": "Save $6,000+ in interest vs standard rates"
     },
     {
       "type": "new",
-      "title": "🆕 3 Months Free FSD Trial on all new orders",
+      "title": "\ud83c\udd95 3 Months Free FSD Trial on all new orders",
       "detail": "Referral program gives 3 months of Full Self-Driving (Supervised). Worth ~$297 at $99/mo subscription.",
       "savings": "$297 value"
     },
     {
       "type": "new",
-      "title": "🔄 FSD Transfer Program — Deadline March 31",
+      "title": "\ud83d\udd04 FSD Transfer Program \u2014 Deadline March 31",
       "detail": "Existing owners with purchased FSD can transfer their license to a new Tesla. Must take delivery by 3/31/2026.",
       "savings": "Save $8,000 (FSD purchase price)"
     },
     {
       "type": "info",
-      "title": "💰 Federal EV Tax Credit up to $7,500",
+      "title": "\ud83d\udcb0 Federal EV Tax Credit up to $7,500",
       "detail": "Model 3 and Model Y qualify. Income limits: $300K (MFJ). MSRP cap: $55K sedans, $80K SUVs. Up to $4,200 savings available after delivery.",
       "savings": "Up to $7,500"
     },
     {
       "type": "info",
-      "title": "🏠 Washington State — No sales tax on EVs under $45K",
+      "title": "\ud83c\udfe0 Washington State \u2014 No sales tax on EVs under $45K",
       "detail": "WA exempts EVs priced under $45,000 from 10.25% sales tax (Seattle). Model 3 RWD ($36,990), Model Y RWD ($39,990), Model Y AWD ($41,990), Model Y RWD Premium ($44,990) all qualify.",
       "savings": "Save $3,800-$4,600 in sales tax"
     }
@@ -51,12 +51,24 @@
           "range": 321,
           "zeroTo60": 5.8,
           "topSpeed": 125,
-          "lease": { "monthly": 299, "downPayment": 2999, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 6.29, "months": 84, "monthly": 519 },
+          "lease": {
+            "monthly": 399,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 6.29,
+            "months": 84,
+            "monthly": 519
+          },
           "fsd": 8000,
           "taxCredit": 7500,
           "waSalesTaxExempt": true,
-          "highlights": ["$7,500 tax credit", "WA sales tax exempt"]
+          "highlights": [
+            "$7,500 tax credit",
+            "WA sales tax exempt"
+          ]
         },
         {
           "name": "Rear-Wheel Drive Premium",
@@ -64,11 +76,25 @@
           "range": 341,
           "zeroTo60": 5.8,
           "topSpeed": 125,
-          "lease": { "monthly": 369, "downPayment": 3499, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.99, "months": 72, "monthly": 582, "note": "0.99% APR — limited time" },
+          "lease": {
+            "monthly": 449,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 0.99,
+            "months": 72,
+            "monthly": 582,
+            "note": "0.99% APR \u2014 limited time"
+          },
           "fsd": 8000,
           "taxCredit": 7500,
-          "highlights": ["0.99% APR", "$7,500 tax credit", "Premium interior"]
+          "highlights": [
+            "0.99% APR",
+            "$7,500 tax credit",
+            "Premium interior"
+          ]
         },
         {
           "name": "Dual Motor AWD Premium",
@@ -76,11 +102,24 @@
           "range": 346,
           "zeroTo60": 4.2,
           "topSpeed": 125,
-          "lease": { "monthly": 399, "downPayment": 4094, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.99, "months": 72, "monthly": 653, "note": "0.99% APR — limited time" },
+          "lease": {
+            "monthly": 549,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 0.99,
+            "months": 72,
+            "monthly": 653,
+            "note": "0.99% APR \u2014 limited time"
+          },
           "fsd": 8000,
           "taxCredit": 7500,
-          "highlights": ["0.99% APR", "$7,500 tax credit"]
+          "highlights": [
+            "0.99% APR",
+            "$7,500 tax credit"
+          ]
         },
         {
           "name": "Performance AWD",
@@ -88,24 +127,67 @@
           "range": 309,
           "zeroTo60": 2.9,
           "topSpeed": 163,
-          "lease": { "monthly": 499, "downPayment": 4494, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.99, "months": 72, "monthly": 761, "note": "0.99% APR — limited time" },
+          "lease": {
+            "monthly": 699,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 0.99,
+            "months": 72,
+            "monthly": 761,
+            "note": "0.99% APR \u2014 limited time"
+          },
           "fsd": 8000,
           "taxCredit": 7500,
-          "highlights": ["0.99% APR", "16\" QHD display"]
+          "highlights": [
+            "0.99% APR",
+            "16\" QHD display"
+          ]
         }
       ],
       "priceHistory": [
-        { "date": "2024-01", "base": 38990 },
-        { "date": "2024-04", "base": 38990 },
-        { "date": "2024-07", "base": 38990 },
-        { "date": "2024-10", "base": 34990 },
-        { "date": "2025-01", "base": 34990 },
-        { "date": "2025-04", "base": 34990 },
-        { "date": "2025-07", "base": 36990 },
-        { "date": "2025-10", "base": 36990 },
-        { "date": "2026-01", "base": 36990 },
-        { "date": "2026-03", "base": 36990 }
+        {
+          "date": "2024-01",
+          "base": 38990
+        },
+        {
+          "date": "2024-04",
+          "base": 38990
+        },
+        {
+          "date": "2024-07",
+          "base": 38990
+        },
+        {
+          "date": "2024-10",
+          "base": 34990
+        },
+        {
+          "date": "2025-01",
+          "base": 34990
+        },
+        {
+          "date": "2025-04",
+          "base": 34990
+        },
+        {
+          "date": "2025-07",
+          "base": 36990
+        },
+        {
+          "date": "2025-10",
+          "base": 36990
+        },
+        {
+          "date": "2026-01",
+          "base": 36990
+        },
+        {
+          "date": "2026-03",
+          "base": 36990
+        }
       ]
     },
     {
@@ -120,12 +202,26 @@
           "range": 321,
           "zeroTo60": 6.8,
           "topSpeed": 125,
-          "lease": { "monthly": 399, "downPayment": 3499, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.0, "months": 72, "monthly": 529, "note": "0% APR — ends 3/31" },
+          "lease": {
+            "monthly": 459,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 0.0,
+            "months": 72,
+            "monthly": 529,
+            "note": "0% APR \u2014 ends 3/31"
+          },
           "fsd": 8000,
           "taxCredit": 7500,
           "waSalesTaxExempt": true,
-          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt"]
+          "highlights": [
+            "0% APR 72mo",
+            "$7,500 tax credit",
+            "WA sales tax exempt"
+          ]
         },
         {
           "name": "All-Wheel Drive",
@@ -133,12 +229,27 @@
           "range": 313,
           "zeroTo60": 4.8,
           "topSpeed": 135,
-          "lease": { "monthly": 429, "downPayment": 3699, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.0, "months": 72, "monthly": 557, "note": "0% APR — ends 3/31" },
+          "lease": {
+            "monthly": 499,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 0.0,
+            "months": 72,
+            "monthly": 557,
+            "note": "0% APR \u2014 ends 3/31"
+          },
           "fsd": 8000,
           "taxCredit": 7500,
           "waSalesTaxExempt": true,
-          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt", "AWD traction"]
+          "highlights": [
+            "0% APR 72mo",
+            "$7,500 tax credit",
+            "WA sales tax exempt",
+            "AWD traction"
+          ]
         },
         {
           "name": "Rear-Wheel Drive Premium",
@@ -146,12 +257,27 @@
           "range": 321,
           "zeroTo60": 6.8,
           "topSpeed": 125,
-          "lease": { "monthly": 459, "downPayment": 3999, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.0, "months": 72, "monthly": 617, "note": "0% APR — ends 3/31" },
+          "lease": {
+            "monthly": 569,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 0.0,
+            "months": 72,
+            "monthly": 617,
+            "note": "0% APR \u2014 ends 3/31"
+          },
           "fsd": 8000,
           "taxCredit": 7500,
           "waSalesTaxExempt": true,
-          "highlights": ["0% APR 72mo", "$7,500 tax credit", "WA sales tax exempt", "Premium interior"]
+          "highlights": [
+            "0% APR 72mo",
+            "$7,500 tax credit",
+            "WA sales tax exempt",
+            "Premium interior"
+          ]
         },
         {
           "name": "Dual Motor AWD Premium",
@@ -159,11 +285,26 @@
           "range": 327,
           "zeroTo60": 4.6,
           "topSpeed": 135,
-          "lease": { "monthly": 499, "downPayment": 4299, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 0.0, "months": 72, "monthly": 674, "note": "0% APR — ends 3/31" },
+          "lease": {
+            "monthly": 669,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 0.0,
+            "months": 72,
+            "monthly": 674,
+            "note": "0% APR \u2014 ends 3/31"
+          },
           "fsd": 8000,
           "taxCredit": 7500,
-          "highlights": ["0% APR 72mo", "$7,500 tax credit", "16\" display", "7-seat option $2,500"]
+          "highlights": [
+            "0% APR 72mo",
+            "$7,500 tax credit",
+            "16\" display",
+            "7-seat option $2,500"
+          ]
         },
         {
           "name": "Performance AWD",
@@ -171,23 +312,65 @@
           "range": 306,
           "zeroTo60": 3.3,
           "topSpeed": 155,
-          "lease": { "monthly": 599, "downPayment": 4999, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 899 },
+          "lease": {
+            "monthly": 799,
+            "downPayment": 3000,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 899
+          },
           "fsd": 8000,
-          "highlights": ["Adaptive suspension", "16\" display"]
+          "highlights": [
+            "Adaptive suspension",
+            "16\" display"
+          ]
         }
       ],
       "priceHistory": [
-        { "date": "2024-01", "base": 43990 },
-        { "date": "2024-04", "base": 44990 },
-        { "date": "2024-07", "base": 44990 },
-        { "date": "2024-10", "base": 44990 },
-        { "date": "2025-01", "base": 44990 },
-        { "date": "2025-03", "base": 44990 },
-        { "date": "2025-06", "base": 44990 },
-        { "date": "2025-10", "base": 44990 },
-        { "date": "2026-01", "base": 44990 },
-        { "date": "2026-03", "base": 39990 }
+        {
+          "date": "2024-01",
+          "base": 43990
+        },
+        {
+          "date": "2024-04",
+          "base": 44990
+        },
+        {
+          "date": "2024-07",
+          "base": 44990
+        },
+        {
+          "date": "2024-10",
+          "base": 44990
+        },
+        {
+          "date": "2025-01",
+          "base": 44990
+        },
+        {
+          "date": "2025-03",
+          "base": 44990
+        },
+        {
+          "date": "2025-06",
+          "base": 44990
+        },
+        {
+          "date": "2025-10",
+          "base": 44990
+        },
+        {
+          "date": "2026-01",
+          "base": 44990
+        },
+        {
+          "date": "2026-03",
+          "base": 39990
+        }
       ]
     },
     {
@@ -202,8 +385,17 @@
           "range": 402,
           "zeroTo60": 3.1,
           "topSpeed": 149,
-          "lease": { "monthly": 1099, "downPayment": 7499, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 1556 },
+          "lease": {
+            "monthly": 1099,
+            "downPayment": 7499,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 1556
+          },
           "fsd": 0,
           "note": "FSD included"
         },
@@ -213,22 +405,58 @@
           "range": 390,
           "zeroTo60": 1.99,
           "topSpeed": 200,
-          "lease": { "monthly": 1299, "downPayment": 7999, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 1802 },
+          "lease": {
+            "monthly": 1299,
+            "downPayment": 7999,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 1802
+          },
           "fsd": 0,
           "note": "FSD + Free Unlimited Supercharging included"
         }
       ],
       "priceHistory": [
-        { "date": "2024-01", "base": 74990 },
-        { "date": "2024-04", "base": 74990 },
-        { "date": "2024-07", "base": 74990 },
-        { "date": "2024-10", "base": 74990 },
-        { "date": "2025-01", "base": 74990 },
-        { "date": "2025-06", "base": 79990 },
-        { "date": "2025-10", "base": 84990 },
-        { "date": "2026-01", "base": 94990 },
-        { "date": "2026-03", "base": 94990 }
+        {
+          "date": "2024-01",
+          "base": 74990
+        },
+        {
+          "date": "2024-04",
+          "base": 74990
+        },
+        {
+          "date": "2024-07",
+          "base": 74990
+        },
+        {
+          "date": "2024-10",
+          "base": 74990
+        },
+        {
+          "date": "2025-01",
+          "base": 74990
+        },
+        {
+          "date": "2025-06",
+          "base": 79990
+        },
+        {
+          "date": "2025-10",
+          "base": 84990
+        },
+        {
+          "date": "2026-01",
+          "base": 94990
+        },
+        {
+          "date": "2026-03",
+          "base": 94990
+        }
       ]
     },
     {
@@ -243,8 +471,17 @@
           "range": 335,
           "zeroTo60": 3.8,
           "topSpeed": 149,
-          "lease": { "monthly": 1199, "downPayment": 7499, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 1638 },
+          "lease": {
+            "monthly": 1199,
+            "downPayment": 7499,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 1638
+          },
           "fsd": 0,
           "note": "FSD included"
         },
@@ -254,22 +491,58 @@
           "range": 311,
           "zeroTo60": 2.5,
           "topSpeed": 163,
-          "lease": { "monthly": 1399, "downPayment": 7999, "months": 36, "milesPerYear": 10000 },
-          "finance": { "apr": 5.49, "months": 72, "monthly": 1884 },
+          "lease": {
+            "monthly": 1399,
+            "downPayment": 7999,
+            "months": 36,
+            "milesPerYear": 10000
+          },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 1884
+          },
           "fsd": 0,
           "note": "FSD + Free Unlimited Supercharging included"
         }
       ],
       "priceHistory": [
-        { "date": "2024-01", "base": 79990 },
-        { "date": "2024-04", "base": 79990 },
-        { "date": "2024-07", "base": 79990 },
-        { "date": "2024-10", "base": 79990 },
-        { "date": "2025-01", "base": 79990 },
-        { "date": "2025-06", "base": 84990 },
-        { "date": "2025-10", "base": 89990 },
-        { "date": "2026-01", "base": 99990 },
-        { "date": "2026-03", "base": 99990 }
+        {
+          "date": "2024-01",
+          "base": 79990
+        },
+        {
+          "date": "2024-04",
+          "base": 79990
+        },
+        {
+          "date": "2024-07",
+          "base": 79990
+        },
+        {
+          "date": "2024-10",
+          "base": 79990
+        },
+        {
+          "date": "2025-01",
+          "base": 79990
+        },
+        {
+          "date": "2025-06",
+          "base": 84990
+        },
+        {
+          "date": "2025-10",
+          "base": 89990
+        },
+        {
+          "date": "2026-01",
+          "base": 99990
+        },
+        {
+          "date": "2026-03",
+          "base": 99990
+        }
       ]
     },
     {
@@ -285,7 +558,11 @@
           "zeroTo60": 6.5,
           "topSpeed": 112,
           "lease": null,
-          "finance": { "apr": 5.49, "months": 72, "monthly": 1311 },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 1311
+          },
           "fsd": 8000
         },
         {
@@ -295,7 +572,11 @@
           "zeroTo60": 4.1,
           "topSpeed": 112,
           "lease": null,
-          "finance": { "apr": 5.49, "months": 72, "monthly": 1638 },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 1638
+          },
           "fsd": 8000
         },
         {
@@ -305,20 +586,51 @@
           "zeroTo60": 2.6,
           "topSpeed": 130,
           "lease": null,
-          "finance": { "apr": 5.49, "months": 72, "monthly": 1884 },
+          "finance": {
+            "apr": 5.49,
+            "months": 72,
+            "monthly": 1884
+          },
           "fsd": 8000
         }
       ],
       "priceHistory": [
-        { "date": "2024-01", "base": 60990 },
-        { "date": "2024-04", "base": 60990 },
-        { "date": "2024-07", "base": 60990 },
-        { "date": "2024-10", "base": 60990 },
-        { "date": "2025-01", "base": 69990 },
-        { "date": "2025-06", "base": 74990 },
-        { "date": "2025-10", "base": 79990 },
-        { "date": "2026-01", "base": 79990 },
-        { "date": "2026-03", "base": 79990 }
+        {
+          "date": "2024-01",
+          "base": 60990
+        },
+        {
+          "date": "2024-04",
+          "base": 60990
+        },
+        {
+          "date": "2024-07",
+          "base": 60990
+        },
+        {
+          "date": "2024-10",
+          "base": 60990
+        },
+        {
+          "date": "2025-01",
+          "base": 69990
+        },
+        {
+          "date": "2025-06",
+          "base": 74990
+        },
+        {
+          "date": "2025-10",
+          "base": 79990
+        },
+        {
+          "date": "2026-01",
+          "base": 79990
+        },
+        {
+          "date": "2026-03",
+          "base": 79990
+        }
       ]
     }
   ]
